@@ -1,0 +1,231 @@
+.navibox{
+    display: flex;
+    position: relative;
+     
+}
+body{
+    
+}
+:root{
+    --mypurple:  rgb(98, 22, 168);
+}
+
+header{
+    color: rgb(98, 22, 168);
+    position: relative;
+    margin-bottom: 135px;
+}
+.navileft,.naviright{
+    display: flex;
+}
+.navileft{
+    gap: 1vw;
+    margin-left: 2vw;
+    
+}
+.comname{
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.naviright{
+    gap: 3.5vw;
+    position: absolute;
+    top: 1.5vw;
+    right: 8vw;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    
+
+}
+.navileft>img{
+    width: 5vw;
+}
+
+section>img{
+    position: absolute;
+    top: 4vw;
+    right: 8vw;
+}
+.bannerbox{
+    width: 98%;
+    height: 75vh;
+    color: black; 
+    margin: 1rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headcontainer{
+    margin-left: 4vw;
+    margin-bottom: 1.6vw;
+
+}
+.subheadcontainer{
+    margin-left: 4vw;
+    font-size: 1.7rem;
+
+}
+.smallhead{
+    margin-left: 4rem;
+    margin-bottom: 1vw;
+    color: blueviolet;
+    
+}
+.smallhead:hover{
+    color: blue;
+}
+section>button{
+    margin-top: 3vw;
+    margin-left: 4vw;
+    width: 16vw;
+    height: 8vh;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    background-color: blueviolet;
+}
+button:hover{
+    color: white;
+    background-color:  rgb(98, 22, 168);
+}
+
+.bannerhead1,.bannerhead2{
+    font-size: 4rem;
+    font-weight: 600;
+}
+#search{
+    position: absolute;
+    left: 35vw;
+    right: 35vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5rem;
+    width: 30vw;
+    height: 5vh;
+    border: 3px solid blueviolet;
+    border-radius: 8px;
+}
+
+.bodyheadbox{
+    display: flex;
+    position: relative;
+}
+.allcoursebutton{
+    position: absolute;
+    top: 0vw;
+    right: 7vw;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: blueviolet;
+    background-color: rgb(239, 227, 249);
+    padding: 5px 25px;
+    border-radius: 15px;
+    border: 3px solid  rgb(98, 22, 168); 
+}
+.bodyheadleft{
+    margin-left: 2vw;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--mypurple);
+
+}
+.coursecontainerbox{
+    display: flex;
+    gap: 3.5vw;
+    margin-top: 1.8rem;
+
+}
+.coursenavbox{
+    width: 25%;
+}
+.coursecontainer{
+    width:65%;
+    overflow-y: scroll;
+    height: 120vh;
+   
+    border-radius: 10px;
+}
+.coursenavbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    justify-content:flex-start;
+    
+}
+.arrow{
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    right: 30px;
+  
+}
+.navboxes{
+    display: flex;
+    align-items: center;
+    gap: 1.4vw;
+    margin-left: vw;
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    padding: 15px;
+    
+}
+.navboxes:hover{
+    background-color: var(--mypurple);
+    color: white;
+}
+.firstnavbox{
+    margin-top: 2vw;
+}
+.navboxes>img{
+    width: 2.5vw;
+}
+.coursecontainer{
+    display: flex;
+    flex-direction: column;
+}
+.courserow1,.courserow2,.courserow3{
+    display:flex;
+    justify-content:space-around;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+
+}
+.course{
+    width: 18vw;
+    height: 50vh;
+    border-radius: 2rem;
+    border: 2px solid grey;
+    box-shadow: 10px 5px 5px grey;
+}
+.upcoming{
+    margin-left: 2vw;
+    font-size: xx-large;
+    font-weight: bold;
+    color: var(--mypurple)
+}
+.course>img{
+    width: 100%;
+    height: 45%;
+    border-top-left-radius: 1.9rem;
+    border-top-right-radius: 1.9rem;
+}
+.uniname,.coursetime{
+    color: var(--mypurple);
+    margin: 0.5em;
+}
+.coursename{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0.5em;
+}
+.specialtext{
+    text-align: center;
+    background-color: rgba(221, 160, 221, 0.308);
+    border-bottom-left-radius: 1.9rem;
+    border-bottom-right-radius: 1.9rem;
+    margin-top: 1em;
+}
