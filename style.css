@@ -143,9 +143,9 @@ button:hover{
 }
 .coursecontainer{
     width:65%;
-    overflow-y: scroll;
     height: 120vh;
-   
+    overflow-y: scroll;
+    border-bottom: 5px solid grey;
     border-radius: 10px;
 }
 .coursenavbox{
@@ -229,3 +229,99 @@ button:hover{
     border-bottom-right-radius: 1.9rem;
     margin-top: 1em;
 }
+footer{
+    margin-top: 10vh;
+}
+.siteinfohead{
+    font-size: 3.6rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    color: var(--mypurple);
+}
+span{
+    color: black;
+}
+span:hover{
+    color: black;
+    text-shadow: 0px 0px 1px blueviolet;
+}
+.infoboxes{
+    display: flex;
+    margin-left: 5vw;
+    margin-bottom: 3rem;
+    
+    gap: 4vw;
+    width: 90vw;
+}
+.reverseboxes{
+    flex-direction: row-reverse;
+}
+.infoboxes>img{
+    border-radius: 15px;
+}
+.infoboxtextcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.infomaintext{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.infosubtext{
+    color: grey;
+    font-size: x-large;
+}
+.svgmain{
+    display: flex;
+    gap: 5vw;
+    font-size: x-large;
+    font-weight: bold;
+    color: grey;
+    margin-top: 5vh;
+}
+.infoboxtextcontainer>button{
+    width: 13vw;
+    height: 8vh;
+    border-radius: 6px;
+    font-weight: bolder;
+    color: white;
+    background-color: blueviolet;
+    border: 1px solid grey;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+}
+.infoboxtextcontainer>button:hover{
+    background-color: var(--mypurple);
+}
+.svgcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.svgcontainer>img{
+    width: 3vw;
+    margin-bottom: 2.5vh;
+}
+.svgspecialtext{
+    color: black;
+    margin-bottom: 0.5vh;
+}
+footer{
+    background-color: rgba(143, 12, 163, 0.067);
+}
+.footerhead{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: var(--mypurple);
+    text-align: center;
+
+}
+
+

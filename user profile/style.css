@@ -1,0 +1,48 @@
+.navibox{
+    display: flex;
+    position: relative;
+     
+}
+body{
+    position: relative;
+    
+}
+:root{
+    --mypurple:  rgb(98, 22, 168);
+}
+
+header{
+    color: rgb(98, 22, 168);
+    position: relative;
+    margin-bottom: 135px;
+    position:sticky;
+    
+}
+.navileft,.naviright{
+    display: flex;
+}
+.navileft{
+    gap: 1vw;
+    margin-left: 2vw;
+    
+}
+.comname{
+    align-self: center;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.naviright{
+    gap: 3.5vw;
+    position: absolute;
+    top: 1.5vw;
+    right: 8vw;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    
+
+}
+.navileft>img{
+    width: 5vw;
+}
